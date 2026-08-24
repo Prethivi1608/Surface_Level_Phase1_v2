@@ -1,0 +1,9 @@
+1. Get the GPS and AHRS Data
+2. Calculate the Linear and Angular u_t
+3. Combine it with Base value to get a PWM value. 
+4. Send the values of Forward, Lateral values to teensy board to control the thrusters. Data format : (fwd,lat,vertical,lights,camera)
+5. class teensy board:
+    attributes: 
+    methods: 1. Run thrusters, Turn on and off lights, turn on and off the camera. 
+    future: Send the feedback of thrusters pwm. 
+
